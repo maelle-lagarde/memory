@@ -1,0 +1,31 @@
+.button {
+    border: 2px solid white;
+    color: white;
+    background-color: #1b1523;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+  }
+
+.button:hover {
+  background-color: #761CEB;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  }

@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  align-content: center;
+}
+
+body {
+  background-color: #1b1523;
+  color: #fff;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.turns-button {
+  border: 2px solid white;
+  color: white;
+  background-color: #1b1523;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 0px;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  margin-right: 100px;
+}
